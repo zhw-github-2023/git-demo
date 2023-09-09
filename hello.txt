@@ -6,6 +6,8 @@
 6. 提交本地库：git commit -m "日志信息" 文件名.txt
 7. 查看版本引用日志信息：git reflog
 8. 查看版本详细日志信息：git log
+9. 版本穿梭：git reset --hard 版本号	[版本号可通过git reflog得到；]
+[可在.git/HEAD文件中查看当前指针位置；可在.git/ref/master文件中查看当前版本号；]
 
 
 
