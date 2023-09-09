@@ -4,6 +4,8 @@
 4. 将文件添加到暂存区：git add 文件名.txt 或者 git add .
 5. 将文件从暂存区中删除：git rm --cached 文件名.txt
 6. 提交本地库：git commit -m "日志信息" 文件名.txt
+7. 查看版本引用日志信息：git reflog
+8. 查看版本详细日志信息：git log
 
 
 
