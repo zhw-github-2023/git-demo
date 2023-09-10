@@ -15,7 +15,7 @@
 2. 查看分支：git branch -v
 3. 切换分支：git checkout 分支名
 4. 吧指定该的分支合并到当前分支上：git merge 分支名
-
+当出现合并冲突时，在消除冲突后，merge之后，commit的时候使用的文件名不要带有文件后缀：git commit -m "merge commit" 文件名(不带后缀)
 
 
 
