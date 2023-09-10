@@ -17,7 +17,14 @@
 4. 吧指定该的分支合并到当前分支上：git merge 分支名
 当出现合并冲突时，在消除冲突后，merge之后，commit的时候使用的文件名不要带有文件后缀：git commit -m "merge commit" 文件名(不带后缀)
 
-
+远程库操作：
+1. sign in https://github.com
+2. create repository: https://github.com/zhw-git-hub/git-demo.git
+3. 查看当前所有远程地址别名：git remote -v
+4. 起别名：git remote add 别名 远程地址
+5. 推送本地分支上的内容到远程仓库：git push 别名 分支
+6. 将远程仓库的内容克隆到本地：git clone 远程地址
+7. 
 
 
 
