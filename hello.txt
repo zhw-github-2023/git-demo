@@ -1,3 +1,4 @@
+常用命令：
 1. 初始化本地库命令： git init
 2. 查看隐藏文件（夹）：ll -a
 3. 查看本地库状态： git status
@@ -8,6 +9,53 @@
 8. 查看版本详细日志信息：git log
 9. 版本穿梭：git reset --hard 版本号	[版本号可通过git reflog得到；]
 [可在.git/HEAD文件中查看当前指针位置；可在.git/ref/master文件中查看当前版本号；]
+
+分支操作：
+1. 创建分支：git branch 分支名
+2. 查看分支：git branch -v
+3. 切换分支：git checkout 分支名
+4. 吧指定该的分支合并到当前分支上：git merge 分支名
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
